@@ -27,6 +27,7 @@ class FitFileTestCase(unittest.TestCase):
         self.assertEquals(len(fit.definitions), 9)
         self.assertEquals(fit._file_size, 104761)
         self.assertEquals(fit._crc, 0x75C5)
+        
 
 
 if __name__ == '__main__':
